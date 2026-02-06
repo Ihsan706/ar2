@@ -91,8 +91,10 @@ body{
 html{
     background: linear-gradient(20deg, #0000b9, #7ee1ffc4);
 	overflow:clip;
-	height: 100vh;
-    width: 100vw;
+	background-size: cover;/* يجعل الخلفية تغطي الشاشة بالكامل */ 
+	background-repeat: no-repeat; /* يمنع التكرار */ 
+	background-position: center; /* يضبطها في المنتصف */ 
+	background-attachment: fixed; /* يجعلها ثابتة عند التمرير (اختياري) */
 }
 .body{
 	border-radius: 20px;
@@ -157,4 +159,5 @@ function source(){
 </body>
 
 </html>
+
 
